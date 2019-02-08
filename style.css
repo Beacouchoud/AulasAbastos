@@ -167,3 +167,16 @@ footer {
     bottom: 0%;
     margin-top: 200px;
 }
+
+footer div {
+    width: 29%;
+    height: 280px;
+    background-color: blue;
+    display: inline-block;
+    margin-inline-start: 3%;
+}
+
+.footer#logo {
+    width: 30%;
+    height: 30%;
+}
