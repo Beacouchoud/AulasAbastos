@@ -108,12 +108,12 @@ h1 {
 div.button {
     position: relative;
     width: 25%;
-    height: 10%;
+    height: 20%;
     left: 35%;
     margin-top: 5%;
     color: #fff;
     text-align: center;
-    padding-top: 1%;
+    padding-top: 4%;
     border:8px solid #ef3a6d;
     background-color: #ef3a6d;
     font-weight: bold;
