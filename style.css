@@ -11,6 +11,11 @@ nav {
     z-index: 999;
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
 ul {
     height: 100%;
     width: 100%;
@@ -87,7 +92,6 @@ li.nav:hover{
 }
 
 div.slider2 {
-
     position: absolute;
     top: 40%;
     left: 25%;
@@ -97,7 +101,7 @@ div.slider2 {
     padding: 0%;
 }
 
-h1 {
+div.slider2 h1 {
     margin: 0%;
     position: relative;
     color: #fff;
@@ -119,6 +123,7 @@ div.button {
     font-weight: bold;
     font-family: sans-serif;
     border-radius: 5%;
+    transition-duration: 0.3s;
 }
 
 div.button:hover {
@@ -126,7 +131,7 @@ div.button:hover {
     background-color: #4fbfc0;
 }
 
-p {
+p.ini {
     position: relative;
     width: 80%;
     margin-top: -25%;
@@ -135,4 +140,30 @@ p {
     font-family: sans-serif;
     font-weight: 500;
     text-align: center;
+}
+
+/* QUIENES SOMOS (mismo navbar y footer) */
+
+section.info{
+    text-align: center;
+    position: relative;
+    font-size: 100%;
+    margin-top: 10%;
+}
+
+section.info p {
+    color: #000;
+}
+
+section.info h2 {
+    color: #ef3a6d;
+    font-family: sans-serif;
+}
+
+footer {
+    background-color: red;
+    width: 100%;
+    height: 50%;
+    bottom: 0%;
+    margin-top: 200px;
 }
