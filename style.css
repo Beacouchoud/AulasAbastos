@@ -14,6 +14,7 @@ nav {
 a {
     text-decoration: none;
     color: #fff;
+    font-family: sans-serif;
 }
 
 ul {
@@ -142,8 +143,6 @@ p.ini {
     text-align: center;
 }
 
-/* QUIENES SOMOS (mismo navbar y footer) */
-
 section.info{
     text-align: center;
     position: relative;
@@ -158,6 +157,25 @@ section.info p {
 section.info h2 {
     color: #ef3a6d;
     font-family: sans-serif;
+}
+
+section div {
+    width: 40%;
+    height: 100%;
+    display: inline-block;
+    margin-left: 8%;
+    margin-top: 2%;
+}
+
+section div p {
+    text-align: center;
+    position: relative;
+    width: 120%;
+    left: -120px;
+    font-size: 150%;
+    font-family: sans-serif;
+    display: inline-block;
+    color: gray;
 }
 
 footer {
