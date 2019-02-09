@@ -213,7 +213,7 @@ footer div {
     width: 29%;
     height: 100%;
     display: inline-block;
-    margin-inline-start: 3%;
+    /* margin-inline-start: 3%; */
     margin-left: 3%;
     color: #4fbfc0;
 }
