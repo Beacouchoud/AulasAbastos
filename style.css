@@ -213,7 +213,6 @@ footer div {
     width: 29%;
     height: 100%;
     display: inline-block;
-    /* margin-inline-start: 3%; */
     margin-left: 3%;
     color: #4fbfc0;
 }
@@ -222,7 +221,7 @@ footer h1{
     color: #4fbfc0;
 }
 
-footer div.contact {
+.contact {
     margin-left: 6%;
     vertical-align: top;
 }
@@ -230,10 +229,11 @@ footer div.contact {
 .contact .footer {
     display: inline;
 }
+
 .footer {
-    display: block;
-    
+    display: block;  
 }
+
 .contact .icon {
     width: 20px;
     height: 20px;
