@@ -219,12 +219,13 @@ footer div {
 }
 footer h1{
     margin-bottom: 4%;
-    margin-top: 4%;
+    margin-top: 2%;
     color: #4fbfc0;
 }
 
 footer div.contact {
     margin-left: 6%;
+    margin-top: 0%;
 }
 
 .contact .footer {
