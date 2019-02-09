@@ -224,7 +224,7 @@ footer h1{
 
 footer div.contact {
     margin-left: 6%;
-    margin-top: 0%;
+    top: -20px;
 }
 
 .contact .footer {
