@@ -231,6 +231,28 @@ section.info#color div.container p {
     margin-top: 50px;
 }
 
+.ubicacion {
+    padding-top: 80px;
+}
+.ubicacion div {
+    display: inline-block;
+    width: 40%;  
+    margin-left: 5%;
+}
+
+.ubicacion div div {
+    display: inline;
+}
+img.ubi1 {
+    width: 30px;
+    height: 30px;
+}
+
+img.ubi2 {
+    width: 20px;
+    height: 20px;
+}
+
 /* FOOTER */
 footer {
     background-color: #EAEAEA;
