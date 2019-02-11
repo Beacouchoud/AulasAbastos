@@ -232,25 +232,51 @@ section.info#color div.container p {
 }
 
 .ubicacion {
-    padding-top: 80px;
+    padding-top: 120px;
 }
 .ubicacion div {
     display: inline-block;
-    width: 40%;  
-    margin-left: 5%;
 }
 
-.ubicacion div div {
-    display: inline;
+.ubicacion .uno {
+    width: 5%;
+    margin-left: 10%;
 }
+
+.ubicacion .uno img {
+    margin-left: 25%;
+    
+}
+
+.ubicacion .dos {
+    width: 30%;
+    margin-left: 0%;
+}
+
+.ubicacion .tres {
+    width: 28%;
+    margin-left: 25%;
+}
+
+.ubicacion .tres div {
+position: relative;
+   width: 100%;
+}
+
+iframe {
+    margin-top: 5%;
+}
+
+
 img.ubi1 {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
 }
 
 img.ubi2 {
-    width: 20px;
-    height: 20px;
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
 }
 
 /* FOOTER */
