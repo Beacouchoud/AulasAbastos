@@ -281,12 +281,33 @@ img.ubi2 {
 }
 
 .container1 {
-    display: inline;
     width: 100%;    
 }
 
-.container1#informate {
+.container1 {
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.container1 .title {
+    margin-left: 20%;
+    padding-top: 20%;
+    font-family: sans-serif;
+    color: #4fbfc0;
+}
+
+
+
+.container1#informate .line {
+    width: 30%;
+    margin-top: 4%;
+}
+
+
+.vacio {
+    height: 120px;
 }
 /*FORMULARIO DE CONTACTO*/
 
@@ -304,10 +325,11 @@ img.ubi2 {
   
   .container1 form {
     border-radius: 5px;
-    max-width:700px;
-    width:100%;
+    width:700px;
     margin: 5% auto;
     margin-top: 0;
+    margin-left: 15%;
+    margin-right: 15%;
     background-color: #FFFFFF;
     overflow: hidden;
     border: 1px solid #D94878;
