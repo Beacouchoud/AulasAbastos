@@ -282,8 +282,7 @@ img.ubi2 {
 
 .container1 {
     display: inline;
-    width: 100%;
-    margin-top: 180px;
+    width: 100%;    
 }
 
 .container1#informate {
@@ -309,8 +308,6 @@ img.ubi2 {
     width:100%;
     margin: 5% auto;
     margin-top: 0;
-    padding-top: 100px;
-    
     background-color: #FFFFFF;
     overflow: hidden;
     border: 1px solid #D94878;
