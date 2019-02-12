@@ -298,14 +298,29 @@ img.ubi2 {
     color: #4fbfc0;
 }
 
-
-
-.container1#informate .line {
+.title::after {
+    position: relative;
+    display: flex;
+    content: "";
+    background-color: #aeaeae;
+    height: 3px;
     width: 30%;
-    margin-top: 4%;
+    margin-top: 5px;
 }
 
+.title:hover::after {
+    position: relative;
+    display: flex;
+    content: "";
+    background-color: #4fbfc0;
+    height: 3px;
+    width: 100%;
+    margin-top: 5px;
+    transition-delay: 0,5s;
+    transition-duration: 1s;
+}
 
+/* El unico proposito de este div es evitar que el formulario sea solapado por el navbar */
 .vacio {
     height: 120px;
 }
