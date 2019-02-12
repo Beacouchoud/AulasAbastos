@@ -280,6 +280,14 @@ img.ubi2 {
     margin-right: 20px;  
 }
 
+.container1 {
+    display: inline;
+    width: 100%;
+}
+
+.container1#informate {
+    width: 100%;
+}
 /*FORMULARIO DE CONTACTO*/
 
 
@@ -301,6 +309,7 @@ img.ubi2 {
     margin: 5% auto;
     background-color: #FFFFFF;
     overflow: hidden;
+    border: 1px solid #D94878;
   }
   
   .container1  p span {
