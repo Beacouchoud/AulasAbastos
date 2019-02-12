@@ -26,7 +26,98 @@
         </nav>
     </header>
     <main>
+        <div class="container1" id="informate">
+            <div>
+                <h2>CONTACTA CON NOSOTROS</h2>
+                <div class="line">
+                    <hr>
+                </div>
+            </div>
+            <div>
+                <form>
+                    <h1>Si tienes cualquier pregunta no dudes en contactar con nosotros:</h1>
         
+                    <div class="contentform">
+                        <div id="sendmessage"> Your message has been sent successfully. Thank you. </div>
+        
+        
+                        <div class="leftcontact">
+                            <div class="form-group">
+                                <p>Nombre <span>*</span></p>
+                                <span class="icon-case"><i class="fa fa-user"></i></span>
+                                <input type="text" name="prenom" id="prenom" data-rule="required"
+                                    data-msg="Verifica los datos del campo: El campo 'Nombre' es incorrecto." />
+                                <div class="validation"></div>
+                            </div>
+        
+                            <div class="form-group">
+                                <p>E-mail <span>*</span></p>
+                                <span class="icon-case"><i class="fa fa-envelope-o"></i></span>
+                                <input type="email" name="email" id="email" data-rule="email"
+                                    data-msg="Verifica los datos del campo: El campo 'Email' es incorrecto." />
+                                <div class="validation"></div>
+                            </div>
+        
+                            <div class="form-group">
+                                <p>Compañía</p>
+                                <span class="icon-case"><i class="fa fa-home"></i></span>
+                                <input type="text" name="society" id="society" data-rule="required"
+                                    data-msg="Verifica los datos del campo: El campo '<Compañia>' es incorrecto." />
+                                <div class="validation"></div>
+                            </div>
+        
+                        </div>
+        
+                        <div class="rightcontact">
+        
+                            <div class="form-group">
+                                <p>Teléfono de contacto <span>*</span></p>
+                                <span class="icon-case"><i class="fa fa-phone"></i></span>
+                                <input type="text" name="phone" id="phone" data-rule="maxlen:10"
+                                    data-msg="Verifica los datos del campo: El campo 'Telefono de contacto' es incorrecto." />
+                                <div class="validation"></div>
+                            </div>
+        
+        
+                            <div class="form-group">
+                                <p>Asunto <span>*</span></p>
+                                <span class="icon-case"><i class="fa fa-comment-o"></i></span>
+                                <select name="menu">
+                                    <option value="0" selected>...</option>
+                                    <option value="1">Envíar un comentario</option>
+                                    <option value="2">Solicitar información</option>
+                                    <option value="3">Consultar presupuesto</option>
+                                </select>
+                                <div class="validation"></div>
+                            </div>
+        
+                            <div class="form-group">
+                                <p>Mensaje <span>*</span></p>
+                                <span class="icon-case"><i class="fa fa-comments-o"></i></span>
+                                <textarea name="message" rows="14" data-rule="required"
+                                    data-msg="Verifica los datos del campo: El campo 'Nombre' es incorrecto." />
+                                </textarea>
+                                <div class="validation"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="bouton-contact">ENVIAR</button>
+        
+                </form>
+            </div>
+        </div>
+
+
+
+
+        <div class="container1" id="reserva">
+            <div>
+                <h2>HAZ TU RESERVA</h2>
+                <div class="line"> <hr> </div>
+            </div>
+            <div>
+
+            </div>
     </main>
     <footer>
         <div class="contact">
