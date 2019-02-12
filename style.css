@@ -51,13 +51,44 @@ li.nav span {
     color: transparent;
 }
 
-li.nav:hover{
-    transition-duration: 1s;
-    border-bottom: 4px solid #fff;
+li.nav::after {
+    position: relative;
+    display: flex;
+    content: "";
+    background-color: transparent;
+    height: 4px;
+    width: 4px;
+    margin-top: 5px;
+    margin-left: 49%;
 }
 
-.page {
+li.nav:hover::after {
+    position: relative;
+    display: flex;
+    content: "";
+    background-color: #fff;
+    height: 4px;
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 0%;
+    transition-delay: 0.5s;
+    transition-duration: 1s;
+}
+
+/* li.nav:hover{
+    transition-duration: 1s;
     border-bottom: 4px solid #fff;
+} */
+
+li.page::after {
+    position: relative;
+    display: flex;
+    content: "";
+    background-color: #fff;
+    height: 4px;
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 0%;
 }
 
 /*SILIDER*/
