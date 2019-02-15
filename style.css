@@ -286,32 +286,31 @@ section.info#color div.container p {
 /*SCROLL HORIZONTAL*/
 
 #scroll-horizontal .box {
-    width:1200px;
-    height:100%;;
+    width:1100px;
+    height:680px;
     display:inline-block;
     position:relative;
     margin: 0 auto;
-    padding: 0 auto;
+    padding: 0 auto; 
+    
   }
   #scroll-horizontal .box > div {
-    width:100px;
-    height:100px;
-    font-size:96px;
+    width:100%;
+    height:100%;
+    font-size:10px;
     color:#FFF;
     top:50%;
-    left:50%;
-    line-height:.7;
-    font-weight:bold;
+    margin-left: 0;
+    background-color: #f2f2f2;
   }
   #scroll-horizontal {
     overflow-y:scroll;
     overflow-x:hidden;
     transform: rotate(270deg) translateX(-100%);
     transform-origin: top left;
-    background-color:#999;
     width:500px;
-    height:1200px;
-    margin-top: 100px;
+    height:1150px;
+    margin-top: 20px;
   }
 
   #scroll-horizontal2 {
@@ -325,19 +324,41 @@ section.info#color div.container p {
     visibility: hidden;
   }
 
-  .one {
-    background-color: #45CCFF;
+  .margen{
+      height: 100px;
   }
-  .two {
-    background-color: #49E83E;
+
+  .box h1{
+      margin-top: 20%;
+      height: 100px;
+      width: 80%;
+      text-align: center;
+      margin-left: 10%;
+      font-size: 400%;
+      color: #4fbfc0;
+      position: relative;
   }
-  .three {
-    background-color: #EDDE05;
-  }
-  .four {
-    background-color: #E84B30;
-  }
-  
+
+.box img {
+    width: 30%;
+    height: 30%;
+    margin-left: 15%;
+}
+
+.box p {
+    width: 100px;
+    height: 100px;
+    left: 0px;
+    margin-left: 20px;
+}
+
+.price {
+    color: #D94878;
+    right: 0px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 150%;
+}
 
 /* GALERIA */
 
@@ -420,7 +441,7 @@ section.info#color div.container p {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-.gallery h1 {
+h1.title2 {
     font-family: sans-serif;
     text-align: center;
     color: #D94878;
