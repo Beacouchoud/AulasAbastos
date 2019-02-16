@@ -458,6 +458,68 @@ h1.title2 {
     width: 100%;
 }
 
+.talleres {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.taller {
+    background-color: #f2f2f2;
+    width: 18%; 
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-inline-start: 20px;
+}
+
+.taller img {
+    height: 50%;
+    width: 90%;
+    margin: 5%;
+    position: relative;
+}
+
+.taller h2 {
+    width: 90%;
+    margin: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 140%;
+    font-family: sans-serif;
+    color: #D94878;
+}
+
+.taller p {
+    font-size: 90%;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    color: #D94878;
+}
+
+.form-taller {
+    width: 100%;
+    height: 500px;
+    background-color: #4fbfc0;
+    margin-top: 5%;
+    display: inline-block;
+}
+
+.form-taller > div {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.title3 {
+    width: 100px;
+    left: 0;
+    margin: 0 auto;
+    position: relative;
+}
+
 .ubicacion {
     padding-top: 120px;
 }
@@ -553,18 +615,17 @@ img.ubi2 {
 /*FORMULARIO DE CONTACTO*/
 
 
-.container1 form h1 {
+form h1 {
     font-size: 18px;
     background: #D94878 none repeat scroll 0% 0%;
     color: rgb(255, 255, 255);
     padding: 22px 25px;
     border-radius: 5px 5px 0px 0px;
-    margin: auto;
-    text-shadow: none; 
+    margin: 0 auto; 
     text-align:left
   }
-  
-  .container1 form {
+
+form {
     border-radius: 5px;
     width:700px;
     margin: 5% auto;
@@ -576,25 +637,23 @@ img.ubi2 {
     border: 1px solid #D94878;
   }
   
-  .container1  p span {
+  form  p span {
     color: #F00;
   }
   
-  .container1  p {
+ form  p {
     margin: 0px;
     font-weight: 500;
     line-height: 2;
     color:#333;
   }
   
-  .container1  h1 {
+form h1 {
     text-align:center; 
-    color: #666;
-    text-shadow: 1px 1px 0px #FFF;
-    margin:50px 0px 0px 0px
+    color: #fff;    
   }
   
-  .container1 input {
+form input {
     border-radius: 0px 5px 5px 0px;
     border: 1px solid #eee;
     margin-bottom: 15px;
@@ -603,7 +662,7 @@ img.ubi2 {
     float: left;
     padding: 0px 15px;
   }
-  .container1 select {
+  form select {
     border-radius: 0px 5px 5px 0px;
     border: 1px solid #eee;
     margin-bottom: 15px;
@@ -613,11 +672,11 @@ img.ubi2 {
     padding: 0px 15px;
   }
   
-  .container1 a {
+  form a {
     text-decoration:inherit
   }
   
-  .container1 textarea {
+ form textarea {
     border-radius: 0px 5px 5px 0px;
     border: 1px solid #EEE;
     margin: 0;
@@ -627,12 +686,12 @@ img.ubi2 {
     padding: 0px 15px;
   }
   
-  .container1 .form-group {
+form .form-group {
     overflow: hidden;
     clear: both;
   }
   
-  .container1  .icon-case {
+form  .icon-case {
     width: 35px;
     float: left;
     border-radius: 5px 0px 0px 5px;
@@ -643,15 +702,15 @@ img.ubi2 {
     line-height:40px;
   }
   
-  .container1 i {
+form i {
     color:#555;
   }
   
-  .container1 .contentform {
+form .contentform {
     padding: 40px 30px;
   }
   
-  .container1 .bouton-contact{
+form .bouton-contact{
     background-color: #D94878;
     color: #FFF;
     text-align: center;
@@ -664,7 +723,7 @@ img.ubi2 {
     font-size: 18px;
   }
   
-  .container1 .leftcontact {
+form .leftcontact {
     width:49.5%; 
     float:left;
     border-right: 1px dotted #CCC;
@@ -672,14 +731,14 @@ img.ubi2 {
     padding: 0px 15px 0px 0px;
   }
   
-  .container1  .rightcontact {
+ form .rightcontact {
     width:49.5%;
     float:right;
     box-sizing: border-box;
     padding: 0px 0px 0px 15px;
   }
   
-  .container1 .validation {
+form .validation {
     display:none;
     margin: 0 0 10px;
     font-weight:400;
@@ -687,7 +746,7 @@ img.ubi2 {
     color: #DE5959;
   }
   
-  .container1 #sendmessage {
+form #sendmessage {
     border:1px solid #fff;
     display:none;
     text-align:center;
@@ -702,7 +761,7 @@ img.ubi2 {
     box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.03);
   }
   
-  .container1 #sendmessage.show,.show  {
+ form #sendmessage.show,.show  {
     display:block;
   }
 
