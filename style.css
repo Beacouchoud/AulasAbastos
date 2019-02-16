@@ -500,24 +500,54 @@ h1.title2 {
     color: #D94878;
 }
 
+.taller button {
+    width: 50%;
+    height: 30px;
+    color: #4fbfc0;
+    background-color: #fff;
+    border: 2px solid #4fbfc0;
+    margin-top: 4px;
+}
+
+.taller button:hover {
+    color: #fff;
+    background-color: #4fbfc0;
+    font-weight: 700;
+} 
+
 .form-taller {
     width: 100%;
-    height: 500px;
+    height: 700px;
     background-color: #4fbfc0;
     margin-top: 5%;
     display: inline-block;
 }
 
 .form-taller > div {
-    width: 40%;
+    width: 30%;
     margin: 0 auto;
 }
 
-.title3 {
-    width: 100px;
-    left: 0;
+.title3 h3{
+    width: 70%;
+    left: -400px;
+    top: 190px;
     margin: 0 auto;
     position: relative;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 250%;
+    font-weight: bold;
+}
+
+.title3 .light {
+    font-weight: 100;
+    font-size: 200%;
+}
+
+.form-taller form {
+    margin-top: -175px;
+    border: none;
 }
 
 .ubicacion {
