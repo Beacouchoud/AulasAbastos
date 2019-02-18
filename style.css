@@ -350,7 +350,7 @@ section.info#color div.container p {
 }
 
 .box h1{
-    margin-top: 25%;
+    margin-top: 30%;
     height: 100px;
     width: 80%;
     text-align: center;
@@ -359,6 +359,7 @@ section.info#color div.container p {
     color: #4fbfc0;
     position: relative;
     z-index: 99999;
+    font-family: sans-serif;
 }
 
 .box img {
@@ -581,6 +582,7 @@ h1.title2 {
     width: 30%;
     margin-left: 35%;
     font-family: sans-serif;
+    border-radius: 0px;
 }
 
 .form-taller form input{
@@ -596,7 +598,7 @@ h1.title2 {
 }
 
 .form-taller form textarea {
-    height: 40px;
+    height: 40px;   
 }
 
 .ubicacion {
@@ -701,7 +703,8 @@ form h1 {
     padding: 22px 25px;
     border-radius: 5px 5px 0px 0px;
     margin: 0 auto; 
-    text-align:left
+    text-align:left;
+    font-family: sans-serif;
   }
 
 form {
