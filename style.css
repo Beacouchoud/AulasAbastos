@@ -569,7 +569,34 @@ h1.title2 {
 
 .form-taller form {
     margin-top: -175px;
+    background: none;
     border: none;
+}
+
+.form-taller form p{
+    color: #fff;
+    font-family: sans-serif;
+}
+.form-taller form button{
+    width: 30%;
+    margin-left: 35%;
+    font-family: sans-serif;
+}
+
+.form-taller form input{
+    border: none;
+    border-bottom: 2px solid #fff;
+    background-color: transparent;
+    font-family: sans-serif;
+}
+.form-taller form input:focus{
+    border: 2px solid transparent;
+    border: 2px solid #D94878;
+    background-color: #fff;
+}
+
+.form-taller form textarea {
+    height: 40px;
 }
 
 .ubicacion {
