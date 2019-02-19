@@ -350,7 +350,7 @@ section.info#color div.container p {
 }
 
 .box h1{
-    margin-top: 20%;
+    margin-top: 23%;
     height: 100px;
     width: 80%;
     text-align: center;
@@ -750,12 +750,8 @@ form {
     margin-left: 27%;
     background-color: #FFFFFF;
     overflow: hidden;
-    border: 1px solid #D94878;
+    
     font-family: 'Josefin Sans', sans-serif;
-  }
-  
-  form  p span {
-    color: #F00;
   }
   
  form  p {
@@ -771,13 +767,14 @@ form input {
     border-radius: 0px 5px 5px 0px;
     border: 1px solid #eee;
     margin-bottom: 15px;
-    width: 75%;
+    width: 60%;
     height: 40px;
     float: left;
-    padding: 0px 15px;
+    padding: 0px 40px;
     font-family: 'Josefin Sans', sans-serif;
-  }
-  form select {
+}
+
+form select {
     border-radius: 0px 5px 5px 0px;
     border: 1px solid #eee;
     margin-bottom: 15px;
@@ -786,11 +783,11 @@ form input {
     float: left;
     padding: 0px 15px;
     font-family: 'Josefin Sans', sans-serif;
-  }
+}
   
-  form a {
+form a {
     text-decoration:inherit
-  }
+}
   
  form textarea {
     border-radius: 0px 5px 5px 0px;
@@ -811,14 +808,26 @@ form .form-group {
 form  .icon-case {
     width: 35px;
     float: left;
-    border-radius: 5px 0px 0px 5px;
-    background:#eeeeee;
-    height:42px;
-    position: relative;
+    margin-top: 2px;
+    height:40px;
+    position: absolute;
     text-align: center;
-    line-height:40px;
-  }
-  
+    line-height: 40px;
+}
+
+form  .icon-case img {
+    width: 80%;
+    height: 80%;
+    padding-top: 5px;
+    position: relative;
+    filter: grayscale(100%);
+    color: #fff;
+}
+
+form  .form-group:focus-within img {
+    filter: grayscale(0%);
+}
+
 form i {
     color:#555;
   }
