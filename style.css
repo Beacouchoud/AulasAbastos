@@ -661,14 +661,13 @@ img.ubi2 {
 }
 
 .container1 .title {
-    width: 1440px;
+    width: 1240px;
     font-family: sans-serif;
     color: #4fbfc0;
     position:relative;
     margin-top: 4%;
+    margin-left: 100px;
     margin-bottom: 6%;
-    border: none;
-    text-decoration: none;
 }
 
 .title h2 {
@@ -676,7 +675,7 @@ img.ubi2 {
     cursor: pointer;
 }
 
-.title::after {
+.title::before {
     position: relative;
     display: flex;
     content: "";
@@ -686,7 +685,7 @@ img.ubi2 {
     margin-top: 5px;
 }
 
-.title:hover::after {
+.title:hover::before {
     position: relative;
     display: flex;
     content: "";
@@ -703,6 +702,16 @@ summary::-webkit-details-marker {
 
 summary {
     outline: 0;
+    box-shadow: 0 2px 1rem 0 rgba(0, 0, 0, 0.34),
+                0 0   3rem 0 rgba(0, 0, 0, 0.015) inset;
+    padding-bottom: 1%;
+}
+
+details[open] .title::before {
+    content: "";
+    width: 100%;
+    background-color: #4fbfc0;
+    display: block;
 }
 
 /* El unico proposito de este div es evitar que el formulario sea solapado por el navbar */
