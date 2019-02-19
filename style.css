@@ -589,6 +589,8 @@ h1.title2 {
 .form-taller form input{
     border: none;
     border-bottom: 2px solid #fff;
+    border-radius: 0;
+    width: 73%;
     background-color: transparent;
     font-family: sans-serif;
 }
