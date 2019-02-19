@@ -590,7 +590,7 @@ h1.title2 {
     border: none;
     border-bottom: 2px solid #fff;
     border-radius: 0;
-    width: 73%;
+    width: 70%;
     background-color: transparent;
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -602,6 +602,7 @@ h1.title2 {
 
 .form-taller form textarea {
     height: 40px;   
+    width: 70%;
 }
 
 .ubicacion {
