@@ -569,6 +569,7 @@ h1.title2 {
 }
 
 .form-taller form {
+    width: 150%;
     margin-top: -175px;
     background: none;
     border: none;
