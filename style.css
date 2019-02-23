@@ -567,10 +567,10 @@ h1.title2 {
     display: inline-block;
     text-decoration: none;
     padding: 7px 14px;
-    background: #000;
+    background: rgba(255, 255, 255, 0.5);
     color: #fff;
     text-transform: uppercase;
-    box-shadow: 0 0 1px #000
+    box-shadow: 0 0 10px 0 #323232;
 }
 .view a.info:hover {
     box-shadow: 0 0 5px #000
@@ -587,6 +587,11 @@ h1.title2 {
     left:-25px;
     top: -5px;
 }
+
+#ancho h2{
+    font-size: 90%;
+}
+
 .view-fifth h2{
     background: rgba(255, 255, 255, 0.5);
     color: #000;
