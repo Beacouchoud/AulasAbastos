@@ -368,7 +368,8 @@ section.info#color div.container p {
     position: relative;
     z-index: 99999;
     font-family: 'Josefin Sans', sans-serif;
-    margin-top: 200px;
+    margin-top: 20%;
+    margin-bottom: 0;  
 }
 
 .box img {
