@@ -180,6 +180,15 @@ p.ini {
     text-align: center;
 }
 
+.ini .destaca {
+    color: #D94878;
+    font-size: 110%;
+}
+
+.ini .grande {
+    font-size: 150%;
+}
+
 section.info{
     text-align: center;
     position: relative;
@@ -226,6 +235,7 @@ section div p {
     display: inline-block;
     color: gray;
 }
+
 section.info#color {
     background-color: #4fbfc0;
     width: 100%;
@@ -500,6 +510,49 @@ h1.title2 {
     margin: 0 auto;
 }
 
+
+.title3 .light {
+    font-weight: 100;
+    font-size: 200%;
+}
+
+.form-taller form {
+    width: 150%;
+    margin-top: -85px;
+    background: none;
+    border: none;
+}
+
+.form-taller form p{
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.form-taller form button{
+    width: 30%;
+    margin-left: 35%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.form-taller form input{
+    border: none;
+    border-bottom: 2px solid #fff;
+    border-radius: 0;
+    width: 85%;
+    background-color: transparent;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.form-taller form input:focus{
+    border: 2px solid transparent;
+    border-bottom: 3px solid #D94878;
+    background-color: #fff;
+}
+
+
+.form-taller form textarea {
+    height: 40px;   
+    width: 85%;
+}
+
 .title3 h3{
     width: 70%;
     left: -400px;
@@ -614,59 +667,6 @@ h1.title2 {
     transition-delay: 0.4s;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-.title3 .light {
-    font-weight: 100;
-    font-size: 200%;
-}
-
-.form-taller form {
-    width: 150%;
-    margin-top: -85px;
-    background: none;
-    border: none;
-}
-
-.form-taller form p{
-    color: #fff;
-    font-family: 'Josefin Sans', sans-serif;
-}
-.form-taller form button{
-    width: 30%;
-    margin-left: 35%;
-    font-family: 'Josefin Sans', sans-serif;
-}
-
-.form-taller form input{
-    border: none;
-    border-bottom: 2px solid #fff;
-    border-radius: 0;
-    width: 55%;
-    background-color: transparent;
-    font-family: 'Josefin Sans', sans-serif;
-}
-.form-taller form input:focus{
-    border: 2px solid transparent;
-    border-bottom: 3px solid #D94878;
-    background-color: #fff;
-}
-
-
-.form-taller form textarea {
-    height: 40px;   
-    width: 70%;
-}
 
 .ubicacion {
     padding-top: 120px;
@@ -827,14 +827,23 @@ form {
 
   
 form input {
-    border-radius: 0px 5px 5px 0px;
-    border: 1px solid #eee;
     margin-bottom: 15px;
     width: 60%;
     height: 40px;
     float: left;
     padding: 0px 10px;
+    border: none;
+    border-bottom: 2px solid #D94878;
+    border-radius: 0;
+    background-color: transparent;
     font-family: 'Josefin Sans', sans-serif;
+}
+
+form input:focus{
+    border: 2px solid transparent;
+    border-bottom: 3px solid #D94878;
+    background-color: #fff;
+    outline: none;
 }
 
 form select {
@@ -939,6 +948,10 @@ footer {
     padding-top: 2%;
 }
 
+footer a {
+    color: #4fbfc0;
+}
+
 footer div {
     position: relative;
     width: 29%;
@@ -989,5 +1002,11 @@ img.icon {
     width: 30%;
     height: 30%;
     margin: 0%;
+}
+
+address {
+    font-style: italic;
+    font-weight: 300;
+    text-align: right;
 }
 
