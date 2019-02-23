@@ -487,57 +487,6 @@ h1.title2 {
     margin-top: 5%;
 }
 
-.taller {
-    background-color: #f2f2f2;
-    width: 18%; 
-    height: 350px;
-    margin: 0 auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-inline-start: 20px;
-}
-
-.taller img {
-    height: 50%;
-    width: 90%;
-    margin: 5%;
-    position: relative;
-}
-
-.taller h2 {
-    width: 90%;
-    margin: 5%;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 140%;
-    font-family: 'Josefin Sans', sans-serif;
-    color: #D94878;
-}
-
-.taller p {
-    font-size: 90%;
-    position: relative;
-    text-align: center;
-    width: 100%;
-    left: 0;
-    color: #D94878;
-}
-
-.taller button {
-    width: 50%;
-    height: 30px;
-    color: #4fbfc0;
-    background-color: #fff;
-    border: 2px solid #4fbfc0;
-    margin-top: 4px;
-}
-
-.taller button:hover {
-    color: #fff;
-    background-color: #4fbfc0;
-    font-weight: 700;
-} 
-
 .form-taller {
     width: 100%;
     height: 700px;
@@ -562,6 +511,115 @@ h1.title2 {
     font-size: 250%;
     font-weight: bold;
 }
+
+.view {
+    width: 300px;
+    height: 200px;
+    margin: 5px;
+    float: left;
+    border: 10px solid #fff;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    cursor: default;
+}
+.view .mask, .view .content {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+.view img {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.view h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 20px 0 0 0;
+}
+
+.view h2.nomt {
+    top: -50%;
+}
+.view p {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 12px;
+    position: relative;
+    color: #fff;
+    padding: 10px 20px 20px;
+    text-align: center;
+    width: 50%;
+    left: 2%;
+}
+.view a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px #000
+}
+.view a.info:hover {
+    box-shadow: 0 0 5px #000
+}
+
+.view-fifth img {
+	transition: all 0.3s ease-in-out; 
+}
+.view-fifth .mask { 
+    background-color: rgba(217,72,120,1);
+	transform: translateX(-300px);
+	opacity: 1;
+    transition: all 0.4s ease-in-out; 
+    left:-25px;
+    top: -5px;
+}
+.view-fifth h2{
+    background: rgba(255, 255, 255, 0.5);
+    color: #000;
+    box-shadow: 0px 1px 3px rgba(159, 141, 140, 0.5);
+}
+.view-fifth p{
+    opacity: 0;
+    color: #fff;
+    transition: all 0.2s linear;
+}
+.view-fifth:hover .mask { 
+	transform: translateX(0px);
+}						
+.view-fifth:hover img { 
+	transform: translateX(300px);
+	transition-delay: 0.1s;
+}
+.view-fifth:hover p{
+    opacity: 1;
+    transition-delay: 0.4s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .title3 .light {
     font-weight: 100;
@@ -589,15 +647,16 @@ h1.title2 {
     border: none;
     border-bottom: 2px solid #fff;
     border-radius: 0;
-    width: 70%;
+    width: 55%;
     background-color: transparent;
     font-family: 'Josefin Sans', sans-serif;
 }
 .form-taller form input:focus{
     border: 2px solid transparent;
-    border: 2px solid #D94878;
+    border-bottom: 3px solid #D94878;
     background-color: #fff;
 }
+
 
 .form-taller form textarea {
     height: 40px;   
@@ -769,7 +828,7 @@ form input {
     width: 60%;
     height: 40px;
     float: left;
-    padding: 0px 40px;
+    padding: 0px 10px;
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -802,34 +861,7 @@ form a {
 form .form-group {
     overflow: hidden;
     clear: both;
-  }
-  
-form  .icon-case {
-    width: 35px;
-    float: left;
-    margin-top: 2px;
-    height:40px;
-    position: absolute;
-    text-align: center;
-    line-height: 40px;
 }
-
-form  .icon-case img {
-    width: 80%;
-    height: 80%;
-    padding-top: 5px;
-    position: relative;
-    filter: grayscale(100%);
-    color: #fff;
-}
-
-form  .form-group:focus-within img {
-    filter: grayscale(0%);
-}
-
-form i {
-    color:#555;
-  }
   
 form .contentform {
     padding: 40px 30px;
